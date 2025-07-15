@@ -1,6 +1,6 @@
 #!/bin/bash
 
-miden-node bundled start \
+./miden-node bundled start \
   --rpc.url "http://0.0.0.0:57291" \
   --data-directory "/root/miden/data" \
   --block.interval "5s" \
